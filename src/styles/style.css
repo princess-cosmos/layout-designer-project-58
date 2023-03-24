@@ -11,7 +11,22 @@
   --blue: #1085c5;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans:wght@300;400;700&display=swap');
+@font-face {
+  font-family: "Neucha";
+  src: url("./fonts/Neucha-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 400;
+  src: url(./fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 700;
+  src: url(./fonts/OpenSans-Bold.ttf);
+}
 
 html {
   font-family: 'Open Sans', sans-serif;
@@ -40,6 +55,21 @@ h3 {
 
   font-weight: inherit;
 }
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+
+/*HEADER */ 
 
 .bg-image {
   position: relative;
@@ -72,18 +102,7 @@ h4 {
   line-height: 1.2em;
 }
 
-h1 {
-  color: #fe8a02;
-  font-size: 62px;
-}
 
-h2 {
-  font-size: 60px;
-}
-
-h3 {
-  font-size: 34px;
-}
 
 .main-image {
   height: 525px;
@@ -109,6 +128,7 @@ h3 {
 .row {
 display: flex;
 justify-content: space-between;
+
 }
 
 .count {
@@ -128,6 +148,7 @@ justify-content: space-between;
   background-color: var(--main);
 
   cursor: pointer;
+  margin-top: 32px;
 }
 
 a {
@@ -142,6 +163,7 @@ a {
 
 .width-50 {
   flex-basis: 50%;
+  width: 540px;
 }
 
 .bg-light {
