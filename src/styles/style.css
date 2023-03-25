@@ -91,8 +91,7 @@ h3 {
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
   z-index: 1;
 
   margin: 0;
@@ -246,7 +245,6 @@ h2 {
 }
 
 .number {
-
   width: 26px;
   height: 64px;
 
@@ -257,4 +255,44 @@ h2 {
   margin-top: 0;
   margin-bottom: 40px;
   line-height: 1;
+}
+
+/* Ikea Effect */
+.img-ikea {
+  width: 578px;
+  height: 434px;
+
+  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.translucent-dark {
+  color: var(--translucent-dark);
+
+  font-family: "Neucha";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  margin-top: 0;
+}
+
+.neucha {
+  font-family: "Neucha";
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 41px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  color: var(--white);
+  background: var(--brown);
+
+  margin-top: 100px;
+  margin-bottom: 20px;
+
+}
+
+.flex {
+  flex: 1 1 50%;
 }
