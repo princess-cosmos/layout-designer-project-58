@@ -68,6 +68,9 @@ h3 {
   font-size: 34px;
 }
 
+p {
+  margin: 0;
+}
 
 /*HEADER */ 
 
@@ -258,7 +261,7 @@ h2 {
 }
 
 /* Ikea Effect */
-.img-ikea {
+.image {
   width: 578px;
   height: 434px;
 
@@ -267,7 +270,9 @@ h2 {
 
 .translucent-dark {
   color: var(--translucent-dark);
+}
 
+.font-neucha {
   font-family: "Neucha";
   font-weight: 400;
   font-size: 24px;
@@ -284,15 +289,33 @@ h2 {
 }
 
 .uppercase {
+  padding-left: 10px;
   text-transform: uppercase;
-  color: var(--white);
-  background: var(--brown);
-
   margin-top: 100px;
   margin-bottom: 20px;
 
 }
 
+.bg-brown {
+  background: var(--brown);
+}
+
 .flex {
   flex: 1 1 50%;
 }
+
+/* Premature Optimization */
+
+.text-brown {
+  color: var(--brown);
+}
+
+.translucent-white {
+  background: var(--white);
+}
+
+.color-translucent {
+  color: var(--translucent-white);
+}
+
+/* Distortion of Novelty */
