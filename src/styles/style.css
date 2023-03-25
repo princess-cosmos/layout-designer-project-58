@@ -175,6 +175,14 @@ a {
   text-align: center;
 }
 
+.video-conteiner {
+  max-width: 1110px;
+
+
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
 h2 {
   margin-bottom: 30px;
 }
@@ -184,8 +192,16 @@ h2 {
   margin-bottom: 30px;
 }
 
+.conteiner > p {
+  margin: 30px 0;
+}
+
 .video {
-  margin-top: 30px;
+  position: relative;
+  margin-bottom: -200px;
+
+  border: none;
+
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
@@ -195,6 +211,7 @@ h2 {
 }
 
 .card-conteiner {
+  padding-top: 200px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -204,10 +221,6 @@ h2 {
 
 .text-light {
   color: var(--white);
-}
-
-.title-block {
-
 }
 
 .title-navigation {
