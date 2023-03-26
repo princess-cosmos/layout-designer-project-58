@@ -38,12 +38,11 @@ html {
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-
   overflow-x: hidden;
 }
 
@@ -73,6 +72,20 @@ p {
 }
 
 /*HEADER */ 
+
+.conteiner {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  max-width: 1110px;
+  min-height: 900px;
+
+  margin: 0 auto;
+  padding: 100px 0;
+}
 
 .bg-image {
   position: relative;
@@ -111,20 +124,6 @@ h3 {
   position: absolute;
   top: 55px;
   right: -270px;
-}
-
-.conteiner {
-  position: relative;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  max-width: 1110px;
-  min-height: 900px;
-
-  margin: 0 auto;
-  padding: 100px 0;
 }
 
 .row {
