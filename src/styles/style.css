@@ -333,7 +333,6 @@ h2 {
 /* FOOTER */
 
 .footer {
- 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -345,8 +344,12 @@ h2 {
   padding: 100px 0;
   }
 
-.bg-dark {  
-background: var(--main-dark);
+.bg-dark { 
+
+  display: flex;
+  width: 1110px;
+  height: 190px; 
+  background: var(--main-dark);
 }
 
 .text-white {
@@ -380,13 +383,14 @@ form {
 }
 
 .column {
-  
   display: flex;
   flex-direction: column;
 
 }
 
 .button {
+  position: absolute;
+  right: 55px;
   border: none;
 
   height: 50px;
@@ -407,6 +411,7 @@ form {
 }
 
 input::placeholder {
+  padding: 15px;
   color: #757575;
   opacity: 0.2;
 }
@@ -422,11 +427,14 @@ input::placeholder {
 }
 
 .size {
+  margin-bottom: 10px;
+  margin-top: 38px;
   font-size: 18px;
 }
 
 .font-size {
   font-size: 12px;
+  margin-bottom: 40px;
 }
 
 .text-blue {
@@ -435,6 +443,10 @@ input::placeholder {
 
 .text-decoration {
   text-decoration: underline;
+}
+
+.border {
+  border: 0;
 }
 
 
