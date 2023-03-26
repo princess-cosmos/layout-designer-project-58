@@ -53,6 +53,14 @@ h3 {
   padding: 0;
 
   font-weight: inherit;
+
+  z-index: 1;
+
+  margin: 0;
+
+  color: var(--main);
+  font-family: Neucha, cursive;
+  line-height: 1.2em;
 }
 
 h1 {
@@ -61,6 +69,7 @@ h1 {
 
 h2 {
   font-size: 60px;
+  margin-bottom: 30px;
 }
 
 h3 {
@@ -102,18 +111,6 @@ p {
   height: 100%;
 
   content: "";
-}
-
-h1,
-h2,
-h3 {
-  z-index: 1;
-
-  margin: 0;
-
-  color: var(--main);
-  font-family: Neucha, cursive;
-  line-height: 1.2em;
 }
 
 .main-image {
@@ -178,10 +175,6 @@ a {
   padding: 100px 0;
 }
 
-h2 {
-  margin-bottom: 30px;
-}
-
 .text-center {
   text-align: center;
 }
@@ -212,8 +205,7 @@ h2 {
 .card-conteiner {
   padding-top: 200px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   justify-content: space-between;
 }
 
