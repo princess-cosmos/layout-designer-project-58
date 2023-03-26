@@ -248,7 +248,7 @@ h2 {
 }
 
 .href {
-  background-color: ;
+  background-color: var(--light);
   text-decoration: none;
   color: unset;
   font-weight: 400;
