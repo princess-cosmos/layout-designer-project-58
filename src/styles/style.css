@@ -192,7 +192,7 @@ a {
 
   border: none;
 
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 /* NAVIGATION */
@@ -266,7 +266,7 @@ a {
   width: 578px;
   height: 434px;
 
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .translucent-dark {
