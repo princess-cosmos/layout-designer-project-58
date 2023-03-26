@@ -124,8 +124,8 @@ h3 {
 }
 
 .row {
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .count {
@@ -240,7 +240,7 @@ h2 {
   padding: 24px;
 }
 
-.card-block:nth-child(3), 
+.card-block:nth-child(3),
 .card-block:nth-child(6) {
   margin-right: 0;
 }
@@ -260,7 +260,7 @@ h2 {
   width: 26px;
   height: 64px;
 
-  font-family: Neucha;
+  font-family: Neucha, cursive;
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
@@ -275,7 +275,7 @@ h2 {
   width: 578px;
   height: 434px;
 
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .translucent-dark {
@@ -283,7 +283,7 @@ h2 {
 }
 
 .font-neucha {
-  font-family: Neucha;
+  font-family: Neucha, cursive;
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
@@ -292,7 +292,7 @@ h2 {
 }
 
 .neucha {
-  font-family: Neucha;
+  font-family: Neucha, cursive;
   font-weight: 400;
   font-size: 34px;
   line-height: 41px;
@@ -333,20 +333,20 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
   min-height: 581px;
 
   padding: 100px 0;
 }
 
-.bg-dark { 
+.bg-dark {
   padding: 0 55px;
 
   display: flex;
   box-sizing: border-box;
   justify-content: space-between;
   align-items: center;
-  height: 190px; 
+  height: 190px;
   background: var(--main-dark);
   gap: 30px;
 }
@@ -366,7 +366,7 @@ form {
 .form {
   margin: 0;
 
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 13.1px;
   line-height: 160%;
@@ -395,12 +395,11 @@ form {
 
 .button::before {
   display: block;
-  
   content: "";
   width: 100%;
   height: 100%;
 
-  background: url(../img/send.svg) no-repeat;
+  background: url("../img/send.svg") no-repeat;
   background-size: 20px;
   background-position: center;
 }
@@ -416,7 +415,7 @@ input::placeholder {
 
   color: #000;
 
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
 
@@ -432,7 +431,7 @@ input::placeholder {
 }
 
 .text-blue {
-  color: #1085C5;
+  color: #1085c5;
 }
 
 .text-decoration {
@@ -450,5 +449,3 @@ input::placeholder {
 .margin > p:last-child {
   margin-bottom: 0;
 }
-
-
