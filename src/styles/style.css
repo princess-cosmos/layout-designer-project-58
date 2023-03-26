@@ -9,6 +9,7 @@
   --translucent-dark: #908d8b;
   --brown: #b09a81;
   --blue: #1085c5;
+  --black: #000;
 }
 
 @font-face {
@@ -191,7 +192,7 @@ a {
 
   border: none;
 
-  filter: drop-shadow(16px 32px rgba(0 0 0 / 15%));
+  filter: drop-shadow(0 16px 32px rgba(var(--black) / 15%));
 }
 
 /* NAVIGATION */
